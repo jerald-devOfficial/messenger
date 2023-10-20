@@ -1,5 +1,35 @@
 import Image from 'next/image';
 import AuthForm from './components/AuthForm';
+import { Metadata } from 'next';
+
+const title = 'Messenger clone by Jerald Baroro';
+
+export const metadata: Metadata = {
+  title: 'Messenger',
+  description: 'Messenger - Send live messages with friends',
+  twitter: {
+    images: {
+      url: 'https://messenger-jeralddev.vercel.app/images/logo.png',
+      alt: 'Messenger - Send live messages with friends',
+      type: 'image/png',
+      width: 300,
+      height: 300
+    }
+  },
+  openGraph: {
+    title: title,
+    images: {
+      url: 'https://messenger-jeralddev.vercel.app/images/logo.png',
+      alt: 'Messenger - Send live messages with friends',
+      type: 'image/png',
+      width: 300,
+      height: 300
+    },
+    siteName: 'Messenger',
+    description:
+      'Messenger - Send live messages with friends. Made with Next.js 13.5, TailwindCSS, Prisma, MongoDB, and Pusher'
+  }
+};
 
 export default function Home() {
   return (

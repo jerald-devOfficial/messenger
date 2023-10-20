@@ -1,22 +1,13 @@
 import './globals.css';
-import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import ToasterContext from './context/ToasterContext';
 import AuthContext from './context/AuthContext';
 import ActiveStatus from './components/ActiveStatus';
+import { ReactNode } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Messenger',
-  description: 'Messenger - Send live messages with friends'
-};
-
-export default function RootLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang='en'>
       <body className={inter.className}>
