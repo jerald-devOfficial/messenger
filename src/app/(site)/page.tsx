@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'Messenger - Send live messages with friends',
   twitter: {
     images: {
-      url: 'https://messenger-jeralddev.vercel.app/images/logo.png',
+      url: 'https://messenger-jerald-devofficial.vercel.app/images/logo.png',
       alt: 'Messenger - Send live messages with friends',
       type: 'image/png',
       width: 300,
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: title,
     images: {
-      url: 'https://messenger-jeralddev.vercel.app/images/logo.png',
+      url: 'https://messenger-jerald-devofficial.vercel.app/images/logo.png',
       alt: 'Messenger - Send live messages with friends',
       type: 'image/png',
       width: 300,

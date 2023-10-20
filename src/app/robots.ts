@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/'
     },
-    sitemap: 'https://messenger-jeralddev.vercel.app/sitemap.xml'
+    sitemap: 'https://messenger-jerald-devofficial.vercel.app/sitemap.xml'
   };
 }
